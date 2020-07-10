@@ -1,0 +1,218 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+\usepackage[utf8]{inputenc}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%   TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    % If your name is very short, use just one of the lines below
+    % If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+    \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Henoc}}}}} % First name
+
+    \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Diaz}}}}} % Last name
+
+    \vspace{6pt}
+
+    % {\huge CTO @ Apli} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+    % Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+    \icon{MapMarker}{12}{Mexico City}\\
+    \icon{Linkedin}{12}{\href{https://www.linkedin.com/in/henocdz/}{/henocdz}}\\
+    \icon{At}{12}{\href{mailto:henocdz@gmail.com}{henocdz@gmail.com}}\\
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+    % Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+    \icon{Globe}{12}{\href{https://henoc.dev}{henoc.dev}}\\
+    \icon{Github}{12}{\href{https://github.com/henocdz}{/henocdz}}\\
+    \icon{Twitter}{12}{\href{https://twitter.com/@henocdz}{@henocdz}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%   INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{1\textwidth} % 40% of the page width for the introduction text
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    \lorem \lorem \\ % Dummy text
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+    \entry
+        {
+            11/2017 --
+            \\\footnotesize{Mexico City}
+        }
+        {Software Engineer, Tech Lead \& CTO}
+        {Apli ({\href{https://apli.jobs/}{\underline{apli.jobs}}})}
+        {\lorem \lorem\\ \texttt{Management}\slashsep\texttt{Python}\slashsep\texttt{Javascript (React \& Node)}\slashsep\texttt{AWS}\slashsep\texttt{Elastic Search}\slashsep\texttt{SQL (Postgres)}\slashsep\texttt{MongoDB}\slashsep\texttt{Microservices}}
+
+    \entry
+        {
+            5/2017 -- 11/2017
+            \\\footnotesize{Mexico City}
+        }
+        {Front-end Developer}
+        {Inventive ({\href{https://www.linkedin.com/company/inventivehack/}{\underline{inventivehack.com}}})}
+        {\lorem \lorem\\ \texttt{ReactJS}\slashsep\texttt{AWS (S3)}}
+
+    \entry
+        {
+            6/2016 -- 4/2017
+            \\\footnotesize{Mexico City}
+        }
+        {Full-stack Developer}
+        {Sable ({\href{https://sable.mx/}{\underline{sable.mx}}})}
+        {\lorem \lorem \lorem\\ \texttt{Python}\slashsep\texttt{Ruby}\slashsep\texttt{React}\slashsep\texttt{Digital Ocean}}
+
+    \entry
+        {
+            9/2015 -- 4/2017
+            \\\footnotesize{Mexico City}
+        }
+        {Software Developer}
+        {Asistia ({\href{https://www.linkedin.com/company/asistia/}{\underline{asistia.mx}}})}
+        {\lorem \lorem \lorem\\ \texttt{Python (Django + Celery)}\slashsep\texttt{React Native}\slashsep\texttt{Digital Ocean}}
+
+    \entry
+        {
+            Jan -- Dec 2015
+            \\\footnotesize{Mexico City}
+        }
+        {Course instructor \& Software developer}
+        {Dev.F ({\href{https://devf.la/}{\underline{devf.la}}})}
+        {\lorem \lorem \lorem\\ \texttt{Python}\slashsep\texttt{Public speaking}}
+
+    \entry
+        {
+            Jan -- Aug 2015
+            \\\footnotesize{Mexico City}
+        }
+        {Software Developer}
+        {Angel Ventures Mexico ({\href{http://www.angelventures.vc/}{\underline{angelventures.vc}}})}
+        {\lorem \lorem \lorem\\ \texttt{Ruby}\slashsep\texttt{Wordpress}\slashsep\texttt{Node.js}}
+    \entry
+        {12/2013 -- 9/2014\\\footnotesize{Mexico City}}
+        {Software developer \& Co-founder}
+        {Bitfel.mx}
+        {Co-founded an electronic billing platform. \\ \texttt{Python}\slashsep\texttt{Django}\slashsep\texttt{Digital Ocean}}
+    \entry
+        {2012 -- 2015\\\footnotesize{Remote}}
+        {Freelance}
+        {Various}
+        {\lorem\lorem\\ \texttt{PHP}\slashsep\texttt{Python}\slashsep\texttt{JavaScript}\slashsep\texttt{Wordpress}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+    \entry
+        {2011 -- 2016}
+        {BS - Computer systems engineering (drop-out)}
+        {IPN - Escuela Superior de Cómputo}
+        {Covered 70-80\% of credits.}
+\end{entrylist}
+
+
+\cvsect{Other}
+
+\begin{entrylist}
+    \entry
+        {2015 -- 2016}
+        {Co-Founder, secondary-organizer \& occasional speaker}
+        {Chilango Django}
+        {
+            Co-Founded the largest meetup for Python and Django developers in Mexico
+            City with
+            {\href{https://meetup.com/Chilango-Django/}{\underline{over 1,500}}}
+            members. Including talks, courses and monthly meetups.\\
+                \texttt{Public speaking}\slashsep
+                \texttt{Community management}
+        }
+    \entry
+        {2012\\\footnotesize{Online}}
+        {Course instructor}
+        {Codigo Facilito {\href{(https://codigofacilito.com/}{(codigofacilito.com)}}}
+        {Recorded a {\href{https://www.youtube.com/watch?v=CjmzDHMHxwU&list=PLE549A038CF82905F}{\underline{Python 2.7}}} video-course along with a {\href{https://www.youtube.com/watch?v=jKbjblt4NXA&list=PLpOqH6AE0tNi47LF-_6gddgq10lp_TLDB}{\underline{Javascript + jQuery}}}
+        video series. Both with thousands of students across Latin America.\\
+                \texttt{Video edition}
+        }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%   ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    \cvsect{Languages}
+
+    \textbf{Spanish} - native\\
+    \textbf{English} - proficient\\
+    \textbf{Italian} - a few words
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.7\textwidth}
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    \cvsect{Hobbies}
+
+    I love... \lorem
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
