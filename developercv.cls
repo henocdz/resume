@@ -49,7 +49,7 @@
 \usepackage{geometry} % Required for adjusting page dimensions and margins
 
 \geometry{
-	paper=a4paper, % Paper size, change to letterpaper for US letter size
+	paper=letterpaper, % Paper size, change to letterpaper for US letter size (a4paper)
 	top=1.75cm, % Top margin
 	bottom=1.75cm, % Bottom margin
 	left=2cm, % Left margin
@@ -198,8 +198,7 @@
 	&\parbox[t]{0.80\textwidth}{% 82.5% of the text width of the page
 		\textbf{#2}% Entry heading text
 
-		{\footnotesize \textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text
-		
+		{\textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text	
 		#4 % Entry description text
 	}\\\\}
 
