@@ -107,13 +107,15 @@
         }
         {\\
             After deciding to leave my CTO role, I decided to stay at Apli as a Senior Software 
-            Engineer to continue growing as an engineer and to help the company with the transition.
+            Engineer to continue growing as an engineer and to help the company with the transition.\\
 
-            I reduced the API response time by 5x by leveraging Postgres optimizations such as 
-            indexes and cluster configuration.
+            I reduced the API response time by 10x by leveraging Postgres optimizations such as 
+            indexes and cluster configuration.\\
 
-            I also led and contributed to the design and implementation of a auto-posting project
-            leveraging event-driven architecture and AWS services such as Batch, SQS, and Lambda.
+            I also led and contributed to the design and implementation of an auto-posting project
+            leveraging event-driven architecture and AWS services such as Batch, SQS, and Lambda. 
+            This project also leveraged RPA (Robotic Process Automation) to automate job postings on
+            Job Board websites.
         }
 
     \entry
@@ -140,21 +142,55 @@
             \slashsep\texttt{Engineering Leadership}
         }
         {\\
-            I was a very active hands-on CTO :miami:
+            I was a very hands-on CTO, leading the engineering team in regards to people management,
+            organization processes, cross-team collaboration and I was also responsible for the 
+            design and implementation of some of the company's software solutions.\\
 
-            Designed: 
+            In regards to people management, I was responsible for the hiring, onboarding, and
+            performance reviews of the engineering team in order to help them grow - including 
+            the design of each of these processes. I also designed and implemented the engineering 
+            career paths which helped to keep a low rotation rate - this initiative was later
+            adopted by the whole company. 
+            
+            Before leaving this role, I redesigned the engineering organization structure to better 
+            align with the company's long-term goals and to set the foundation to scale the 
+            engineering team.\\
+
+            In regards to organization processes, I proposed and led product and project 
+            management initiatives across the company such as weekly catch-ups with other leaders, 
+            recurrent all-hands meetings, bi-weekly bugs review meetings, and the implementation and 
+            evangelization of productivity tools such as ClickUp, Slack integrations, Retool, 
+            and others. \\
+
+            Additionally, enforced engineering processes such as code reviews, pull requests, 
+            on-call rotations, DORA metrics, and others.
+        }
+
+    \entry
+        {}
+        {}
+        {}
+        {\\
+            Regarding software design and architecture, I was responsible for the design and
+            implementation of some of the company's critical software solutions such as:
 
             \begin{itemize}
-                \item Side effects
-                \item Recruitment Pipeline
-                \item Openings Locator
-                \item Job Boards Automation
-                \item NANE (parts of it)
-                \item Talent \& NANE Infra (v0)
-                \item CI \& CD Pipelines Team City
-                \item Hiring, recuiting, and onboarding processes
-                \item Engineering processes, performace reviews, and career paths
-            \end{itemize}       
+                \item Side effects: a system to trigger configurable actions based on changes in some database tables. Leveraging techniques such as polling and asynchronous execution to achieve high performance and reliability.
+                \item Recruitment Pipeline: the main system capability responsible for managing the whole recruitment process. This lego-like software solution was designed to be highly configurable and extensible and has been used by the company to manage over 3M candidates with highly customizable processes demanded by customers such as BBVA, Grupo Bimbo, and others.
+                \item Openings Locator: a system leveraging Postgres' full-text search, trigram similarity and Levenshtein capabilities to allow chat-users to search for locations where there are openings available in a conversational way (natural language).
+                \item Job Boards Automation Messaging: a system contact candidates that applied via Job Board websites to continue their process via Apli's chatbot. Notification are highly configurable allowing N number of retries, and different messaging platforms such as Email, WhatsApp and SMS. This system leveraged event-driven architecture, RPA (Robotic Process Automation), and AWS services such as Batch, DynamoDB, SQS, and Lambda.
+                \item Conversational platform: led the engineering product team responsible for the product and technical design of Apli's core chatbot platform in record time (< 6 months). Also contributed with this system's Conversation Flow State capability emulation data structures such as stacks and queues to allow the chatbot to handle complex conversations scenarios. This capability has be used by over 10M conversations and had to be highly optimized at Postgres level to achieve < 500ms response times since the chatbot user sends a message until the chatbot responds.
+                \item Infrastructure: designed and implemented the first version of Apli's infrastructure on AWS for both platforms (Conversations and Recruitment). The first version was designed to be highly available and scalable, and was later migrated to a more robust and secure infrastructure. 
+                \item CI \& CD: designed and implemented continuous integration and continuous delivery pipelines using Team City and GitHug Actions. This allowed the engineering team to deploy to production multiple times a day with confidence.
+            \end{itemize}
+
+            In regards to security, I led and contributed to the company's efforts to achieve the
+            ISO 27001 certification. This included the design and implementation of security
+            processes, policies, and software solutions. I was responsible for defining the 
+            company's security posture and corresponding policies in regard to device management, 
+            access control, software development, and infrastructure. This included the deployment
+            of MDM, AV, and cloud security solutions such as Kandji, Crowdstrike, AWS Security Hub, 
+            and others.
         }
 
     \entry
